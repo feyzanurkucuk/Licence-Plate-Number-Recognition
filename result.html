@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Plate Detection Result</title>
+</head>
+<body>
+    <h1>Car Plate Detection Result</h1>
+    <img src="{{ image_path }}" alt="Uploaded Image">
+    <p>Detected Plate Number: {{ plate_number }}</p>
+
+    <h2>All Plate Numbers and Times:</h2>
+    {% if plate_records %}
+    <table>
+        <thead>
+            <tr>
+                <th>Plate Number</th>
+                <th>
+                </th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in plate_records %}
+                <tr>
+                    <td>{{ record.plate_number }}</td>
+                    <td></td>
+                    <td>{{ record.request_time.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    {% else %}
+        <p>No plate records available.</p>
+    {% endif %}
+</body>
+</html>
