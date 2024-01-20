@@ -2,7 +2,7 @@
 
 PARKING LOT MANAGEMENT SYSTEM via LICENCE PLATE NUMBER RECOGNITION
 
-to run the project, in terminal, run python app.py command.
+To run the project, in terminal, run python app.py command.
 IP address and port number will be written in the terminal.
 
 model files and dataset images could not be uploaded because of their size are bigger than 400mb 
