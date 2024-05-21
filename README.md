@@ -1,6 +1,6 @@
-# cse474-project
+# LICENCE PLATE NUMBER RECOGNITION
 
-LICENCE PLATE NUMBER RECOGNITION
+
 
 To run the project, in terminal, run python app.py command.
 IP address and port number will be written in the terminal.
