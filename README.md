@@ -1,10 +1,10 @@
 # cse474-project
 
-PARKING LOT MANAGEMENT SYSTEM via LICENCE PLATE NUMBER RECOGNITION
+LICENCE PLATE NUMBER RECOGNITION
 
 To run the project, in terminal, run python app.py command.
 IP address and port number will be written in the terminal.
-The project will not be work with these files. Model and sum additional files are needed but
+The project will not work with these files. Model and sum additional files are needed but
 model files and dataset images could not be uploaded because of their size are bigger than 400mb 
 
 01_xml_to_csv.ipynb ---> to convert xml annotation files to csv file
